@@ -26,6 +26,7 @@ export type {
   EventStoreReducer,
   EventStoreAggregate,
   Reducer,
+  SideEffectsSimulator,
 } from './eventStore';
 export { Command, tuple } from './command/command';
 export type {
